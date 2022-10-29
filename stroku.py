@@ -1,3 +1,5 @@
 sentence = input('text')
 s=input('s')
+repword=input('repword')
 print(sentence.count(s))
+print(sentence.replace(repword,"other"))
